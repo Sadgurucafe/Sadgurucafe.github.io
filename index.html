@@ -100,7 +100,7 @@ h2 {
 }
 
 .menu-grid {
-    width: 1000px;
+
     justify-content: center;
     justify-self: center;
 }
@@ -160,6 +160,39 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+
+    header {
+        background-size: contain;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 70px 5%;
+        text-align: center;
+    }
+
+    .menu-items,
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
 </style>
 </head>
 
@@ -373,14 +406,14 @@ footer {
 <section id="photos">
     <h2>Our Photos</h2>
     <div class="gallery">
-        <img src="IMAGES\Media (9).jpg">
-        <img src="IMAGES\Media (10).jpg">
-        <img src="IMAGES\Media (11).jpg">
-        <img src="IMAGES\Media (12).jpg">
-        <img src="IMAGES\Media (13).jpg">
-        <img src="IMAGES\Media (14).jpg">
-        <img src="IMAGES\Media (15).jpg">
-        <img src="IMAGES\Cafe Interior.jpg">
+        <img src="IMAGES/Media (9).jpg">
+        <img src="IMAGES/Media (10).jpg">
+        <img src="IMAGES/Media (11).jpg">
+        <img src="IMAGES/Media (12).jpg">
+        <img src="IMAGES/Media (13).jpg">
+        <img src="IMAGES/Media (14).jpg">
+        <img src="IMAGES/Media (15).jpg">
+        <img src="IMAGES/Cafe Interior.jpg">
     </div>
 </section>
 
